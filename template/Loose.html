@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../static/page_gameover.css">
+  <title>Game Over</title>
+</head>
+
+<body>
+<form method="post">
+  <div class="over_page">
+    <img class="title" alt="Game over text" src=../static/Game%20Over.png>
+  </div>
+
+  <div class="Retry">
+    <button class="Retry_button" name="EndGame" value="Replay">Retry</button>
+    </a>
+  </div>
+
+  <div class="Quit">
+    <button class="Quit_button" name="EndGame" value="Back">Disconect</button>
+    </a>
+  </div>
+
+  <div class="link_over">
+    <div class="vignetteafter">
+    </div>
+  </div>
+
+  <div class="WordAffiche">
+    <p class="phrase"> THE WORD WAS {{.WordToSearchUpper}}</p>
+  </div>
+
+</form>
+</body>
+</html>

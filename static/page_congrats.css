@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'The Wild Breath of Zelda';
+    src: url('../static/The Wild Breath of Zelda.otf') format('truetype');
+}
+
+body {
+    background: url("../static/La-magnifique-princesse-Zelda-Cosplay-est-la-vraie-royaute-dHyrule.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 99vw;
+    height: 1vh;
+}
+
+.title {
+    position: relative;
+    margin-top: 13vh;
+    margin-left: 3vw;
+    width: 30vw;
+}
+
+.Congrats_page {
+    display: flex;
+    justify-content: left;
+}
+
+
+.Retry {
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+}
+
+.Retry_button {
+    font-family: "The Wild Breath of Zelda";
+    position: relative;
+    margin-top: 17.5vh;
+    width: max-content;
+    padding-inline: 6.5rem;
+    height: 6vh;
+    background: white;
+    border: 0.5vh solid rgba(0, 0, 0, 0.14);
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: #00000066;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.75;
+    transition: all 0.1s;
+    outline: none;
+}
+
+.Quit {
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+}
+
+.Quit_button {
+    font-family: "The Wild Breath of Zelda";
+    position: relative;
+    margin-top: 1vh;
+    width: max-content;
+    padding-inline: 11.1rem;
+    height: 6vh;
+    background: white;
+    border: 0.5vh solid rgba(0, 0, 0, 0.14);
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: #00000066;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.75;
+    transition: all 0.1s;
+    outline: none;
+}
+
+button:hover {
+    border: 0.5vh solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.link_congrats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    position: absolute;
+    bottom: 3vh;
+}
+
+.points {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ScoreAffiche {
+    color: black;
+    position: absolute;
+    opacity: 0.7;
+    font-family: "The Wild Breath of Zelda";
+    font-size: 45px;
+    bottom: 20vh;
+}
+
+.Word {
+    position: absolute;
+    right: 0;
+    top: 10rem;
+    margin-right: 25px;
+}
+
+.WordAffiche {
+    color: black;
+    opacity: 0.7;
+    font-family: "The Wild Breath of Zelda";
+    font-size: 45px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/page_lvl.css">
+    <title>Level of Hangman</title>
+</head>
+<body>
+<form method="post">
+    <div class="lvl">
+        <h1>HI {{.ID}}, CHOOSE A LEVEL !</h1>
+    </div>
+
+    <div class="Easy">
+        <button class="Easy_button" name="Level" value="Easy">Easy</button>
+    </div>
+
+    <div class="Medium">
+        <button class="Medium_button" name="Level" value="Medium">Medium</button>
+    </div>
+
+    <div class="Hard">
+        <button class="Hard_button" name="Level" value="Hard">Hard</button>
+    </div>
+
+    <div class="Extrem">
+        <button class="Extrem_button" name="Level" value="Extrem">Extrem</button>
+    </div>
+
+    <div class="Back">
+        <button class="Back_button" name="Level" value="Back">Disconect</button>
+    </div>
+
+    <img class="logo" src="../static/Logo.png">
+</form>
+</body>
+</html>

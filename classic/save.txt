@@ -1,0 +1,1 @@
+{"WordBase":"cheveux","ShowWord":["_","H","E","_","E","U","_"],"LetterFind":"oaeulm","Attemps":6,"Position":315,"Asci":"thinkertoy.txt"}

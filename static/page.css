@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'The Wild Breath of Zelda';
+    src: url('../static/The Wild Breath of Zelda.otf') format('truetype');
+}
+
+body{
+    background: url("https://cdn.discordapp.com/attachments/933058461988692098/1063493644776116254/Zelda-Wallpaper.gif") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 99vw;
+    height: 1vh;
+}
+
+.word{
+    font-family: "The Wild Breath of Zelda";
+    text-align: center;
+    color: black;
+    font-size: 65px;
+    position: relative;
+    top: 180px;
+}
+
+.attempts{
+    font-family: "The Wild Breath of Zelda";
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    position: relative;
+    top: 280px;
+}
+
+.test{
+    font-family: "The Wild Breath of Zelda";
+    text-align: center;
+    position: relative;
+    top: 380px;
+}
+
+.insert{
+    font-family: "The Wild Breath of Zelda";
+    height: 40px;
+    width: 500px;
+}
+
+.input{
+    font-family: "The Wild Breath of Zelda";
+    color: white;
+    background: green;
+    height: 40px;
+    width: 500px;
+}
+
+.back {
+    display: flex;
+    justify-content: left;
+    width: 100vw;
+}
+.back_button{
+    font-family: "The Wild Breath of Zelda";
+    position: absolute;
+    bottom: 5vh;
+    width: max-content;
+    padding-inline: 2rem;
+    height: 5.33vh;
+    margin-left: 3vw;
+    border-radius: 1vw;
+    background: rgb(0, 140, 0);
+    border: 0.3vh solid #005200;
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: #c7d91b;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.95;
+    transition: all 0.1s;
+    outline: none;
+}
+.retry {
+    display: flex;
+    justify-content: left;
+    width: 100vw;
+}
+.retry_button{
+    font-family: "The Wild Breath of Zelda";
+    position: absolute;
+    bottom: 12vh;
+    width: max-content;
+    padding-inline: 3.6rem;
+    height: 5.33vh;
+    margin-left: 3vw;
+    border-radius: 1vw;
+    background: rgb(0, 82, 0);
+    border: 0.3vh solid #003f00;
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: #c7d91b;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.95;
+    transition: all 0.1s;
+    outline: none;
+}
+button:hover {
+    background-color: #00f500;
+    color: white;
+}
+
+.letter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    font-family: "The Wild Breath of Zelda";
+    position: absolute;
+    bottom: 8vh;
+
+}
+
+.Jose2{
+    position: absolute;
+    bottom: 3vh;
+    right: 3vw;
+}
+.Jose{
+    width: 8vw;
+}

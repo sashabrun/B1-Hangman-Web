@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/page_congrats.css">
+    <title>Congrats</title>
+</head>
+
+<body>
+<form method="post">
+    <div class="Word">
+        <p class="WordAffiche">THE WORD WAS {{.WordToSearchUpper}}</p>
+    </div>
+    <div class="Congrats_page">
+        <img class="title" alt="Congratulation text" src=../static/Congrats.png>
+    </div>
+
+    <div class="Retry">
+        <button class="Retry_button" name="EndGame" value="Replay">Retry same account</button>
+    </div>
+
+    <div class="Quit">
+        <button class="Quit_button" name="EndGame" value="Back">Disconnect</button>
+    </div>
+
+    <div class="link_congrats">
+        <img class="link" src="../static/Congrats.gif">
+    </div>
+
+    <div class="points">
+        <p class="ScoreAffiche"> YOU WIN {{.ScoreAdd}} POINTS AND YOU HAVE {{.Score}}</p>
+    </div>
+
+</form>
+</body>
+</html>

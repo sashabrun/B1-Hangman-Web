@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'The Wild Breath of Zelda';
+    src: url('../static/The Wild Breath of Zelda.otf') format('truetype');
+}
+
+body{
+    background-color: black;
+}
+
+.title {
+    position: relative;
+    margin-top: 15vh;
+    width: 30vw;
+}
+
+.over_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Retry {
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+}
+.Retry_button{
+    font-family: "The Wild Breath of Zelda";
+    position: relative;
+    margin-top: 10vh;
+    width: max-content;
+    padding-inline: 7rem;
+    height: 6vh;
+    background: black;
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.95;
+    transition: all 0.1s;
+    outline: none;
+}
+.Quit {
+    display: flex;
+    justify-content: center;
+    width: 99vw;
+}
+.Quit_button{
+    font-family: "The Wild Breath of Zelda";
+    position: relative;
+    margin-top: 1vh;
+    width: max-content;
+    padding-inline: 7.5rem;
+    height: 6vh;
+    background: black;
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.95;
+    transition: all 0.1s;
+    outline: none;
+}
+
+button:hover {
+    border: 0.5vh solid white;
+    background-color: black;
+    color: white;
+}
+
+
+.link {
+    box-shadow: inset 0px 0px 150px black;
+    position: absolute;
+    bottom: 15vh;
+
+}
+
+.link_over {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11vh;
+    position: relative;
+    width: 50vw;
+    height: 25vh;
+    display: block;
+    background-image: url('../static/game-over-link.gif');
+    background-size: cover;
+}
+
+.vignetteafter {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    box-shadow: inset 0px 0px 200px black;
+}
+
+.WordAffiche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.phrase{
+    color: #ff0000;
+    position: absolute;
+    opacity: 0.7;
+    font-family: "The Wild Breath of Zelda";
+    font-size: 45px;
+    bottom: 1vh;
+}

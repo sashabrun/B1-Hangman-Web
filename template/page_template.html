@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../static/page.css">
+    <title>HangmanPlay</title>
+</head>
+<body>
+<form method="POST">
+    <div class="word">
+        {{ .WordAffiche }}
+    </div>
+    <div class="attempts">
+        <img src="/static/Heart{{.Attemp}}.png">
+    </div>
+    <div class="test">
+        <input class="insert" word="words" type="text" value="" name="choice" placeholder="Choose letter"/>
+    </div>
+    <div class="test">
+        <input class="input"  type="submit" value="Envoyer" />
+    </div>
+    <div class="back">
+        <button class="back_button" name="game" value="Back">DISCONNECT</button>
+    </div>
+    <div class="retry">
+        <button class="retry_button" name="game" value="Replay">RETRY</button>
+    </div>
+    <div class="letter">
+        <h2>LETTER ALREADY USE : {{ .LettreAlreadyTest}}</h2>
+    </div>
+    <div class="Jose2">
+        <img class="Jose" src="/static/New%20Piskel-{{.Attemp}}.png.png">
+    </div>
+
+</form>
+</body>
+</html>

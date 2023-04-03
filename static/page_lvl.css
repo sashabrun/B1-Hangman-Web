@@ -1,0 +1,174 @@
+*{
+    margin: 0vw;
+    padding: 0vh;
+}
+
+@font-face {
+    font-family: 'The Wild Breath of Zelda';
+    src: url('../static/The Wild Breath of Zelda.otf') format('truetype');
+}
+
+body{
+    background: url("https://cdn.discordapp.com/attachments/1059853430966984756/1059853484079448084/Zelda-BOTW-Animated-Wallpaper.gif") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 1vh;
+}
+
+.Level{
+    position: relative;
+}
+.lvl{
+    font-family: "The Wild Breath of Zelda";
+    position: relative;
+    margin-top: 14vh;
+    opacity: 0.85;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4vw;
+}
+
+
+.Easy {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.Easy_button{
+    font-family: "The Wild Breath of Zelda";
+    position: relative;
+    margin-top: 5vh;
+    width: max-content;
+    padding-inline: 4rem;
+    height: 9.33vh;
+    border-radius: 1vw;
+    background: #00d000;
+    border: 0.3vh solid #00af00;
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: #c7d91b;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.95;
+    transition: all 0.1s;
+    outline: none;
+}
+.Medium {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.Medium_button{
+    font-family: "The Wild Breath of Zelda";
+    position: relative;
+    margin-top: 5vh;
+    width: max-content;
+    padding-inline: 3.24rem;
+    height: 9.33vh;
+    border-radius: 1vw;
+    background: #00af00;
+    border: 0.3vh solid #008600;
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: #c7d91b;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.95;
+    transition: all 0.1s;
+    outline: none;
+}
+.Hard {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.Hard_button{
+    font-family: "The Wild Breath of Zelda";
+    position: relative;
+    margin-top: 5vh;
+    width: max-content;
+    padding-inline: 4rem;
+    height: 9.33vh;
+    border-radius: 1vw;
+    background: #008600;
+    border: 0.3vh solid #007200;
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: #c7d91b;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.95;
+    transition: all 0.1s;
+    outline: none;
+}
+.Extrem {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.Extrem_button{
+    font-family: "The Wild Breath of Zelda";
+    position: relative;
+    margin-top: 5vh;
+    width: max-content;
+    padding-inline: 3.24rem;
+    height: 9.33vh;
+    border-radius: 1vw;
+    background: #007200;
+    border: 0.3vh solid #005400;
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: #c7d91b;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.95;
+    transition: all 0.1s;
+    outline: none;
+}
+
+.Back {
+    display: flex;
+    justify-content: left;
+    width: 100vw;
+}
+.Back_button{
+    font-family: "The Wild Breath of Zelda";
+    position: absolute;
+    bottom: 3vh;
+    width: max-content;
+    padding-inline: 2rem;
+    height: 5.33vh;
+    margin-left: 5vw;
+    border-radius: 1vw;
+    background: rgb(0, 54, 0);
+    border: 0.3vh solid #001f00;
+    padding-block: 0.8vh;
+    letter-spacing: 0.13vw;
+    text-transform: uppercase;
+    color: #c7d91b;
+    font-weight: bold;
+    font-size: 2.4vh;
+    opacity: 0.95;
+    transition: all 0.1s;
+    outline: none;
+}
+
+button:hover {
+    background-color: #00f500;
+    color: white;
+}
+
+.logo {
+    opacity: 0.7;
+    position: absolute;
+    bottom: 3vh;
+    right: 5vw;
+    width: 10vw;
+}
